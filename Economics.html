@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>TKMCAS</title>
+</head>
+
+<body>
+    <!-----head-->
+    <section class="DEPARTMENT">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.png"></a>
+                <a href="index.html">
+                    <h1>TKM</h1>
+                </a>
+                <h4>COLLAGE OF ARTS & SCIENCE</h4>
+                <h3>CAS</h3>
+            </div>
+            <div class="menu" id="menu">
+                <i class="fi bi-x" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="fesilites.html">FASILITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fi menu-icon bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h2>Economics Department</h2>
+    </section>
+    <!-----/head-->
+    <section class="Department">
+        <div class="row">
+            <div class="DEpartment-col-1">
+                <h1>Economics</h1>
+                <p>The Department of Economics was established in the year 2020. The department offers courses in (double main) BA Economics & Mathematics , BA English and BA Islamic History. The Faculties of the Department are competent active research scholars. Currently the department has three faculties.</p><br>
+                <p><b>Programmes offered: BA Economics and Mathematics</b></p><br>
+               <p>BA Economics & Mathematics is a double main course offered by the Department of Economics and  the Department of Mathematics together. A UG double main programme combining the subjects Mathematics and  Economics  enables the students to grab analytical and logical skills and apply them in the field of Economics. Mathematics is a tool to internalise modern Economics. It is a well structured course that promotes Mathematical applications in Economics. This course will be useful to those students with a firm mathematical and economics background.</p><br>
+                <div class="img">
+                        <img src="image/economics.jpg">
+                </div>
+            </div>
+        <div class="DEpartment-col-2">
+                <div class="faculty">
+                    <p><b>Eligibility :</b>Plus two</p>
+                    <p><b>Structure of the course :</b>Syllabus</p>
+                    <p>The first batch was enrolled in the academic year 2020-2021. The sanctioned strength is 50. Currently there are two running batches: S2 and S3 with a total of 92 students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----footer-->
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="footer-col">
+                <div class="logo-1">
+                    <a href="#footer"><img src="image/logo.png"></a>
+                    <a href="#footer">
+                        <h1>TKM</h1>
+                    </a>
+                    <h4>COLLAGE OF ARTS & SCIENCE</h4>
+                    <h3>CAS</h3>
+                </div>
+                <P>Re-accredited by NAAC with "A++" Grade</P>
+            </div>
+            <div class="footer-col">
+                <h3></h3>
+                <h5><a href="about.html">ABOUT</a></h5>
+                <h5><a href="course.html">COURSE</a></h5>
+                <h5><a href="fesilites.html">FASILITIES</a></h5>
+                <h5><a href="contact.html">CONTACT</a></h5>
+                <hr class="hr">
+                <div class="vl"></div>
+            </div>
+            <div class="footer-col">
+                <h3>SHORT LINKS</h4>
+                    <h5><a href="vision-mission.html">VISION</a></h5>
+                    <h5><a href="Alumni.html">ALUMNI</a></h5>
+                    <div class="icons1">
+                        <a href="https://www.facebook.com/tkmcasofficialpage/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/tkmcasofficial/"><i class="bi bi-instagram"></i></a>
+            <a href="https://twitter.com/tkmcasofficial?t=hr2OWnzSo0xv35x9W600pA&s=08"><i class="bi bi-twitter"></i></a>
+            <a href="https://youtube.com/@tkmcasofficial5026"><i class="bi bi-youtube"></i></a>
+                    </div>
+                    <hr class="hr">
+                    <div class="vl"></div>
+            </div>
+            <div class="footer-col">
+                <h3>CONTACT US</h3>
+                <h5><i class="bis bi-geo-alt-fill"></i>TKM College of Arts & Science Kollam </h5>
+                <h5><i class="bis bi-telephone"></i></i>Ph : 0474 - 2712240, 2711817</h5>
+                <h5><i class="bis bi-telephone-fill"></i>Fax : 0474 - 2711817</h5>
+                <h5><i class="bis bi-envelope-fill"></i>Email : tkmarts@gmail.com</h5>
+                <div class="vl"></div>
+            </div>
+        </div>
+        <hr>
+        <h2><i class="bi bi-c-circle" style="padding-right: 5px;"></i>Copyright 2023-All Rights Reserved</h2>
+    </section>
+    <!-----/footer-->
+
+    <script>
+        let menu = document.getElementById("menu");
+
+        function closeMenu() {
+            menu.style.width = "0"
+        }
+        function showMenu() {
+            menu.style.width = "200px"
+        }
+
+    </script>
+
+</body>
+
+</html>
